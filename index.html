@@ -3,21 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toe Game</title>
+    <title>Tic_Tac_toe Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
-        <h1>Tic Tac Toe</h1>
-        <div class="inform">
-            Start The Game By Clicking The Boxes
-        </div>
-        <div class="msg-container hide">
-            <p class="msg"></p>
-            <button class="newGame">NEW GAME</button>
-        </div>
-        <div class="game">
-            <div class="boxes">
+    <main>
+       <h1>Tic Tac Toe</h1>
+       <button class="newGame">New Game</button>
+       <div class="msg">First move is 'O'</div>
+        <div class="container">
+            <div class="game">
                 <button class="box"></button>
                 <button class="box"></button>
                 <button class="box"></button>
@@ -29,8 +24,8 @@
                 <button class="box"></button>
             </div>
         </div>
-    </div>
-    <button class="resetbtn">RESET GAME</button>
+        <button class="resetGame">Reset Game</button>
+    </main>
     <script src="app.js"></script>
 </body>
 </html>
